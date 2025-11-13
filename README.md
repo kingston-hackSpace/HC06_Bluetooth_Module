@@ -31,7 +31,8 @@ This sketch doesn't activate the bluetooth yet, but it will allow us to test com
 **Libraries required:** SoftwareSerial.h
 
 **Instructions:**
-	- Upload this code to your Arduino UNO
+	
+	- Upload this code to your Arduino UNO.
 	
 	- Open the Serial Monitor and select 115200 baud, No ending line.
 
