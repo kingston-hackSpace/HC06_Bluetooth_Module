@@ -7,9 +7,13 @@ Some devices, such as iPhones, only operate via BLE*
 
 -------------- 
 **HARWARE**
+
 - HC06 Bluetooth Module
+
 - Arduino Uno
+
 - Resistor 2.2k Ohms
+
 - Resistor 1k ohms
 
 -------------- 
@@ -25,15 +29,16 @@ This sketch doesn't activate the bluetooth yet, but it will allow us to test com
 
 **Instructions:**
 	- Upload this code to your Arduino UNO
-	- Open the Serial Monitor: 
-		- 115200 baud
-		- No ending line
+	
+	- Open the Serial Monitor and select 115200 baud, No ending line.
 
 	- Identify the Serial Monitor's Message Box. Type “AT” and press Enter.
+	
 	- You should see a reply from the HC-06 saying “OK”. This means that everything has been properly set-up. 
 
 **TROUBLESHOOTING:**
 - This code and settings are for Arduino UNO. Other boards may need different settings
+  
 - Check this tutorial: https://aleksandarhaber.com/connect-bluetooth-module-hc-06-with-arduino-and-use-mobile-phone-to-control-arduino/#google_vignette
 
 
@@ -45,8 +50,10 @@ You can use an smartphone App such as "Serial Bluetooth Terminal" (Android only)
 
 **Key features:**
 1. Arduino reads characters (char) from the HC-06 until it sees the end-of-message character '#'.
-2. Once the full message is received, it prints the message to the Serial Monitor.
-3. Arduino sends a confirmation back to the smartphone, e.g., "Arduino sends back <message>".
+   
+3. Once the full message is received, it prints the message to the Serial Monitor.
+   
+5. Arduino sends a confirmation back to the smartphone, e.g., "Arduino sends back <message>".
 
 **Instructions:**
 
