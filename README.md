@@ -21,9 +21,9 @@ Look at the following link:
 
 This sketch doesn't activate the bluetooth yet, but it will allow us to test communication with the HC06
 
-Libraries required: SoftwareSerial.h
+**Libraries required:** SoftwareSerial.h
 
-Instructions:
+**Instructions:**
 	- Upload this code to your Arduino UNO
 	- Open the Serial Monitor: 
 		- 115200 baud
@@ -37,18 +37,18 @@ Instructions:
 - Check this tutorial: https://aleksandarhaber.com/connect-bluetooth-module-hc-06-with-arduino-and-use-mobile-phone-to-control-arduino/#google_vignette
 
 
-
-SKETCH 2: HC06 - Sending a Message
+-------------- 
+**SKETCH 2: HC06 - Sending a Message**
 
 This sketch sets up the Arduino UNO board to send messages via Bluetooth.
 You can use an smartphone App such as "Serial Bluetooth Terminal" (Android only) to receive the messages.
 
-Key features:
+**Key features:**
 1. Arduino reads characters (char) from the HC-06 until it sees the end-of-message character '#'.
 2. Once the full message is received, it prints the message to the Serial Monitor.
 3. Arduino sends a confirmation back to the smartphone, e.g., "Arduino sends back <message>".
 
-Instructions:
+**Instructions:**
 
 - Upload the code to your Arduino UNO board
 
