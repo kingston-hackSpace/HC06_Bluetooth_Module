@@ -32,13 +32,13 @@ This sketch doesn't activate the bluetooth yet, but it will allow us to test com
 
 **Instructions:**
 	
-	- Upload this code to your Arduino UNO.
+- Upload this code to your Arduino UNO.
 	
-	- Open the Serial Monitor and select 115200 baud, No ending line.
+- Open the Serial Monitor and select 115200 baud, No ending line.
 
-	- Identify the Serial Monitor's Message Box. Type “AT” and press Enter.
+- Identify the Serial Monitor's Message Box. Type “AT” and press Enter.
 	
-	- You should see a reply from the HC-06 saying “OK”. This means that everything has been properly set-up. 
+- You should see a reply from the HC-06 saying “OK”. This means that everything has been properly set-up. 
 
 **TROUBLESHOOTING:**
 - This code and settings are for Arduino UNO. Other boards may need different settings
