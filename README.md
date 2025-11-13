@@ -2,19 +2,21 @@
 ------- 
 This tutorial covers how to use the HC-06 module to establish communication between an Arduino UNO board and an Android device via Bluetooth. 
 
-``Note: The HC-06 is a Bluetooth classic module, not BLE (Bluetooth Low Energy)
-Some devices, such as iPhones, only operate via BLE``
+*Note: The HC-06 is a Bluetooth classic module, not BLE (Bluetooth Low Energy)
+Some devices, such as iPhones, only operate via BLE*
 
-HARWARE
-HC06 Bluetooth Module
-Arduino Uno
-Resistor 2.2k Ohms
-Resistor 1k ohms
+-------------- 
+**HARWARE**
+- HC06 Bluetooth Module
+- Arduino Uno
+- Resistor 2.2k Ohms
+- Resistor 1k ohms
 
-WIRING
-Image link
+**WIRING*
+Look at the following link:
 
-SKETCH 1: HC06 - Testing communication
+
+**SKETCH 1: HC06 - Testing communication**
 
 This sketch doesn't activate the bluetooth yet, but it will allow us to test communication with the HC06
 
@@ -29,7 +31,7 @@ Instructions:
 	- Identify the Serial Monitor's Message Box. Type “AT” and press Enter.
 	- You should see a reply from the HC-06 saying “OK”. This means that everything has been properly set-up. 
 
-TROUBLESHOOTING:
+**TROUBLESHOOTING:**
 - This code and settings are for Arduino UNO. Other boards may need different settings
 - Check this tutorial: https://aleksandarhaber.com/connect-bluetooth-module-hc-06-with-arduino-and-use-mobile-phone-to-control-arduino/#google_vignette
 
