@@ -18,6 +18,7 @@ Some devices, such as iPhones, only operate via BLE*
 
 -------------- 
 **WIRING**
+
 Look at the following link:
 
 https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/HC06_Diagram.png
