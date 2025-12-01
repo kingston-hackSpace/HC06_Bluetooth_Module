@@ -6,6 +6,8 @@ This tutorial covers how to use the HC-06 module to establish communication betw
 Some devices, such as iPhones, only operate via BLE*
 
 -------------- 
+# Tutorial
+-------------- 
 **HARWARE**
 
 - HC06 Bluetooth Module
@@ -19,9 +21,7 @@ Some devices, such as iPhones, only operate via BLE*
 -------------- 
 **WIRING**
 
-Look at the following link:
-
-https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/HC06_Diagram.png
+Wiring reference image [here](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/HC06_Diagram.png)
 
 -------------- 
 **SKETCH 1: HC06 - Testing communication**
@@ -43,7 +43,7 @@ This sketch doesn't activate the bluetooth yet, but it will allow us to test com
 **TROUBLESHOOTING:**
 - This code and settings are for Arduino UNO. Other boards may need different settings
   
-- Check this tutorial: https://aleksandarhaber.com/connect-bluetooth-module-hc-06-with-arduino-and-use-mobile-phone-to-control-arduino/#google_vignette
+- Check [this tutorial](https://aleksandarhaber.com/connect-bluetooth-module-hc-06-with-arduino-and-use-mobile-phone-to-control-arduino/#google_vignette)
 
 
 -------------- 
