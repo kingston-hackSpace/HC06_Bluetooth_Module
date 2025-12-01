@@ -24,6 +24,9 @@ Some devices, such as iPhones, only operate via BLE*
 Wiring reference image [here](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/HC06_Diagram.png)
 
 -------------- 
+**CODE**
+-------------- 
+
 **SKETCH 1: HC06 - Testing communication**
 
 This sketch doesn't activate the bluetooth yet, but it will allow us to test communication with the HC06
@@ -32,7 +35,7 @@ This sketch doesn't activate the bluetooth yet, but it will allow us to test com
 
 **Instructions:**
 	
-- Upload this code to your Arduino UNO.
+- Upload [this code](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/1_HC06_Test_Communication.ino) to your Arduino UNO.
 	
 - Open the Serial Monitor and select 115200 baud, No ending line.
 
@@ -61,7 +64,7 @@ You can use an smartphone App such as "Serial Bluetooth Terminal" (Android only)
 
 **Instructions:**
 
-- Upload the code to your Arduino UNO board
+- Upload [this code](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/2_HC06_Send_MSG.ino) to your Arduino UNO board.
 
 - Enable Bluetooth in your android device and select the HC-06 module
 
