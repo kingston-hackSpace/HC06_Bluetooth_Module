@@ -8,7 +8,7 @@ Some devices, such as iPhones, only operate via BLE*
 -------------- 
 # Tutorial
 -------------- 
-**HARWARE**
+## HARDWARE
 
 - HC06 Bluetooth Module
 
@@ -19,19 +19,23 @@ Some devices, such as iPhones, only operate via BLE*
 - Resistor 1k ohms
 
 -------------- 
-**WIRING**
+## WIRING
 
-Wiring reference image [here](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/HC06_Diagram.png)
+<img src="HC06_Diagram.png" width="600">
+*Click on image to expand
 
 -------------- 
+## CODE and INSTRUCTIONS
 
 **SKETCH 1: HC06 - Testing communication**
 
-This sketch doesn't activate the bluetooth yet, but it will allow us to test communication with the HC06
+This code doesn't activate Bluetooth yet, but it will allow us to test communication with the HC06
 
-**Libraries required:** SoftwareSerial.h
+- Open Arduino IDE
 
-**Instructions:**
+- Install the following libraries:
+
+	- SoftwareSerial.h 
 	
 - Upload [this code](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module/blob/main/1_HC06_Test_Communication.ino) to your Arduino UNO.
 	
