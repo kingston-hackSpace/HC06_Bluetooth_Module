@@ -21,7 +21,7 @@ Some devices, such as iPhones, only operate via BLE*
 -------------- 
 ## WIRING
 
-<img src="HC06_Diagram.png" width="600">
+<img src="Bluetooth-HC06_bb.jpg" width="800">
 *Click on image to expand
 
 -------------- 
